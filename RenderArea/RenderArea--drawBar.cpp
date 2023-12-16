@@ -17,6 +17,7 @@
 // Otherwise, see <http://www.gnu.org/licenses/>.
 
 
+#include <QPainterPath>
 #include <QtDebug>  // this is here for debugging 
 
 #include "RenderArea.h"
