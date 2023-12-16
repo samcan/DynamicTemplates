@@ -10,14 +10,12 @@ were crawled by the Internet Archive, so it was possible to save it.  An example
 
 ## Build instructions
 
-The 2009 code was updated to work with Qt5 on Ubuntu 18.04 and 20.04.
-To build the `diyp` executable:
-
-```
-sudo apt install qt5-qmake qt5-default libqt5svg5-dev
-qmake
-make
-```
+This has been updated to use CMake as a build generator rather than
+qmake. It was tested with Qt 5.15.2 LTS on Windows 10 x64 with Microsoft
+Visual Studio 2022 x64. After installing Qt5 and adding its
+`msvc2019-x64\bin` folder to your path, you can open the folder directly
+in Visual Studio and it handles the CMake file correctly. You can then
+build directly from there.
 
 ## Dynamic Templates v2.05 announcement
 
